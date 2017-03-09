@@ -17,6 +17,20 @@ html, body {
   position: inherit;
 
 }
+ 
+.listReg {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 0 10px;
+  background-color: #14213D;
+   border-style: solid;
+  border-top-width: 5px;
+  border-color: #14213D;
+  border: 2px solid #FFF;
+  position: inherit;
+  background-image: -webkit-linear-gradient(#FFD194, #BC1324);
+
+}
 p{
   text-align: center;
   font-size: 30;
@@ -24,4 +38,27 @@ p{
 }
 h1{
   text-align: center;
+}
+textarea {
+
+  align-content:  center;
+  width:250px;
+  display: block;
+  margin: 0% auto;
+  resize: none;
+  text-align: center;
+  border-radius: 7.5px;
+}
+button {
+  display: inline-block;
+  width:250px;
+  margin-top: 1.5%;
+  align: center;
+  cursor: pointer;
+  background-color: #14213D;
+  color: #FFF;
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+  padding: 7px;
+  border-radius: 8.5px;
 }
