@@ -1,0 +1,27 @@
+html, body {
+   background-color: #f4f7f8;
+   margin: left;
+   padding: 0;
+
+ }
+ .container {
+  max-width: 125px;
+  margin: 50px auto;
+  padding: 0 10px;
+  background-color: yellow;
+  border-style: solid;
+  border-top-width: 5px;
+  border-color: black;
+  border: auto solid #FFF;
+  border-radius: 10px;
+  position: inherit;
+
+}
+p{
+  text-align: center;
+  font-size: 30;
+  font-weight: bold;
+}
+h1{
+  text-align: center;
+}
