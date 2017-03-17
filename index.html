@@ -7,19 +7,27 @@
     <title>Registration No.</title>
   </head>
   <body>
-    <h1>REGISTRATION NUMBERS</h1>
+    <h1>WCAPE REGISTRATION NUMBERS</h1>
+
     <img src="iconauto.png" alt="">
     <input type='text'id="myText" placeholder="Enter registration number">
     <p id = "errorMsg"></p>
   <center>  <button id ="myBtn" name="Add-Registration">Add</button></center>
+  <select class="myLocations" onchange="findLoc()">
+    FILTER
+  <option value="fl">FILTER</option>
+  <option value="CJ">Paarl</option>
+  <option value="CY">Bellville</option>
+  <option value="CAM">Caledon</option>
+  <option value="CAW">George</option>
+  <option value="CA ">Cape Town</option>
+ <option value="WP">Western Cape</option>
+  <option value="ALL">Show All</option>
+  </select>
 
+  <div  id="listReg">
 
-      <div  id="listReg">
-
-
-      </div>
-
-
+  </div>
 
   </body>
   <script src="registration_number.js" charset="utf-8"></script>

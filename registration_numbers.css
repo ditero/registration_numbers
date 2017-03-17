@@ -3,17 +3,21 @@ html, body {
    margin: left;
    padding: 0;
 
+
  }
  .container {
-  max-width: 125px;
-  margin: 10px auto;
+  width: 120px;
+  margin: 10px 20px;
+  display: inline-block;
   margin-bottom: 10px auto;
+  margin-left: 0 30px;
+  margin-right: 50px auto;
   padding: 0 10px;
   background-color: yellow;
   border-style: solid;
   border-top-width: 5px;
   border-color: black;
-  border: auto solid #FFF;
+
   border-radius: 10px;
   position: inherit;
 
@@ -21,22 +25,44 @@ html, body {
 
 p{
   text-align: center;
-  font-size: 30;
+  font-size: 100%;
   font-weight: bold;
 }
 h1{
   text-align: center;
+  color: #14213D;
+  font-size: 125%;
+  margin-bottom: auto 10%;
 }
-/*textarea {
+.divide{
+  margin: 0 auto;
+  display: inline-table;
+  width: 100%;
+}
+#listReg {
+  margin: 0 auto;
+  width: 44%;
+  border-top-width: 5px;
+  border-radius: 10px;
+  border-top-style: groove;
+  border-color: snow;
+}
+select{
+ margin: 10px;
+ padding: 5px;
+ border: 2px solid #333;
+ width: 100px;
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ border-radius: 5px;
+}
+.myLocations{
+    margin: 0 64.35%;
+}
 
-  align-content:  center;
-  width:250px;
-  display: block;
-  margin: 0% auto;
-  resize: none;
-  text-align: center;
-  border-radius: 7.5px;
-}*/
+div.scrollmenu a:hover {
+    background-color: #777;
+}
 img{
   margin: 0 auto;
   display: block;
@@ -49,24 +75,21 @@ img{
 }
 input[type=text] {
 
-    width: 250px;
+    width:20.5%;
     display: block;
-    margin: 0% auto;
-    text-align: center;
+    margin: 0 auto;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
     background-color: white;
-    background-position: 10px 10px;
     background-repeat: no-repeat;
     padding: 12px 15px 12px 35px;
 }
 button {
   display: inline-block;
-  width:250px;
-  margin-bottom: 65px ;
-
+  width:21%;
+  margin-bottom: 25px ;
   align: center;
   cursor: pointer;
   background-color: #14213D;
