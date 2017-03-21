@@ -20,6 +20,7 @@ var regNum = addTxt.toUpperCase();
     li.textContent = regNum;
     listReg.appendChild(mDiv);
     errorMsg.innerHTML = "";
+    addTxt = "";
   }
   else {
     errorMsg.innerHTML = er;
