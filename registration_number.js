@@ -21,6 +21,7 @@ var regNum = addTxt.toUpperCase();
     listReg.appendChild(mDiv);
     errorMsg.innerHTML = "";
    InputTxt.value = "";
+    InputTxt.focus();
   }
   else {
     errorMsg.innerHTML = er;
