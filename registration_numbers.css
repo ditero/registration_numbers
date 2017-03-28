@@ -2,8 +2,6 @@ html, body {
    background-color: #f4f7f8;
    margin: left;
    padding: 0;
-
-
  }
  .container {
   width: 120px;
@@ -17,7 +15,6 @@ html, body {
   border-style: solid;
   border-top-width: 5px;
   border-color: black;
-
   border-radius: 10px;
   position: inherit;
 
@@ -59,7 +56,7 @@ select{
  border-radius: 5px;
 }
 .myLocations{
-    margin: 0 28%;
+    margin: 0 24%;
 }
 
 div.scrollmenu a:hover {
