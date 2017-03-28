@@ -46,6 +46,8 @@ h1{
   border-radius: 10px;
   border-top-style: groove;
   border-color: snow;
+  height: 150px;
+  overflow-y: scroll;
 }
 select{
  margin: 10px;
